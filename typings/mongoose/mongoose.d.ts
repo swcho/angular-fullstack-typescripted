@@ -173,6 +173,7 @@ export = M;
 
         export interface Document {
             _id: string;
+            provider: string;
             update<T extends Document>(doc: any, options: any, callback: (err: any, affectedRows: number, raw: any) => void ): Query<T>;
             save<T extends Document>(fn?: (err: any, res: T) => void ): void;
             remove<T extends Document>(callback?: (err) => void ): Query<T>;

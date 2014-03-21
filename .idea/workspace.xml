@@ -2,18 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3b67e727-2086-4062-86ee-691f83bf8df5" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Generated_files.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/scopes/client.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/typings/mongoose/mongoose.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/models/project.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/server.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/sungwoo.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gruntfile.js" afterPath="$PROJECT_DIR$/Gruntfile.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server.js" afterPath="$PROJECT_DIR$/server.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/controllers/api.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/controllers/index.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/routes.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/controllers/session.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/controllers/users.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Generated_files.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Generated_files.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/controllers/api.js" afterPath="$PROJECT_DIR$/lib/controllers/api.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/controllers/index.js" afterPath="$PROJECT_DIR$/lib/controllers/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typings/mongoose/mongoose.d.ts" afterPath="$PROJECT_DIR$/typings/mongoose/mongoose.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/routes.js" afterPath="$PROJECT_DIR$/lib/routes.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/controllers/session.js" afterPath="$PROJECT_DIR$/lib/controllers/session.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/controllers/users.js" afterPath="$PROJECT_DIR$/lib/controllers/users.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ossdb2.iws" />
@@ -37,22 +37,93 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="server.ts" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server.ts">
+      <file leaf-file-name="routes.ts" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lib/routes.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="0" selection-start="1098" selection-end="1098" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="754">
+            <state line="29" column="0" selection-start="814" selection-end="814" vertical-scroll-proportion="0.49410224" vertical-offset="0" max-vertical-offset="763">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="middleware.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/middleware.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="api.ts" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/controllers/api.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="53" selection-start="0" selection-end="53" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="299">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/controllers/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="19" column="0" selection-start="0" selection-end="679" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="429">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.ts" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/controllers/index.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="403">
               <folding>
-                <element signature="n#!!doc" expanded="true" />
+                <marker date="1395404022466" expanded="false" signature="84:135" placeholder="/** Send partial, or 404 if it doesn't exist ...*/" />
+                <marker date="1395404022466" expanded="true" signature="174:542" placeholder="{...}" />
+                <marker date="1395404022466" expanded="true" signature="319:538" placeholder="{...}" />
+                <marker date="1395404022466" expanded="true" signature="337:487" placeholder="{...}" />
+                <marker date="1395404022466" expanded="true" signature="493:532" placeholder="{...}" />
+                <marker date="1395404022466" expanded="true" signature="545:580" placeholder="/** Send our single page app ...*/" />
+                <marker date="1395404022466" expanded="true" signature="616:644" placeholder="{...}" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="routes.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lib/routes.js">
+      <file leaf-file-name="session.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/controllers/session.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="33" column="2" selection-start="911" selection-end="911" vertical-scroll-proportion="0.56225425" vertical-offset="0" max-vertical-offset="763">
+            <state line="28" column="0" selection-start="0" selection-end="652" vertical-scroll-proportion="0.0" vertical-offset="13" max-vertical-offset="442">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="session.ts" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/controllers/session.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="53" selection-start="0" selection-end="53" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="429">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="users.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/controllers/users.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="32" column="0" selection-start="0" selection-end="1631" vertical-scroll-proportion="0.0" vertical-offset="65" max-vertical-offset="1014">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="users.ts" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/controllers/users.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="0" selection-start="240" selection-end="240" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="988">
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -60,28 +131,8 @@
       <file leaf-file-name="mongoose.d.ts" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/typings/mongoose/mongoose.d.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="55" column="35" selection-start="2187" selection-end="2187" vertical-scroll-proportion="0.0" vertical-offset="223" max-vertical-offset="2509">
+            <state line="175" column="29" selection-start="7492" selection-end="7492" vertical-scroll-proportion="0.0" vertical-offset="2006" max-vertical-offset="2522">
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="node.d.ts" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/node_modules/grunt-typescript/typings/node/node.d.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="80" column="10" selection-start="2708" selection-end="2708" vertical-scroll-proportion="0.0" vertical-offset="851" max-vertical-offset="16406">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="node.d.ts" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/typings/node/node.d.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="80" column="10" selection-start="2654" selection-end="2670" vertical-scroll-proportion="0.0" vertical-offset="860" max-vertical-offset="16471">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -105,6 +156,11 @@
         <option value="$PROJECT_DIR$/lib/models/project.ts" />
         <option value="$PROJECT_DIR$/Gruntfile.js" />
         <option value="$PROJECT_DIR$/server.ts" />
+        <option value="$PROJECT_DIR$/lib/routes.ts" />
+        <option value="$PROJECT_DIR$/lib/controllers/api.ts" />
+        <option value="$PROJECT_DIR$/lib/controllers/index.ts" />
+        <option value="$PROJECT_DIR$/lib/controllers/session.ts" />
+        <option value="$PROJECT_DIR$/lib/controllers/users.ts" />
         <option value="$PROJECT_DIR$/typings/mongoose/mongoose.d.ts" />
       </list>
     </option>
@@ -262,6 +318,42 @@
               <option name="myItemId" value="lib" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="routes.ts" />
+              <option name="myItemType" value="com.intellij.plugins.watcher.projectView.NestingTreeNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ossdb2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ossdb2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ossdb2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ossdb2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
@@ -346,12 +438,18 @@
       <created>1395397647081</created>
       <updated>1395397647081</updated>
     </task>
+    <task id="LOCAL-00001" summary="TypeScript applied for server.js&#10;">
+      <created>1395403808841</created>
+      <updated>1395403808841</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="1359" y="-10" width="1454" height="917" extended-state="6" />
     <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.41318125" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -380,9 +478,13 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="CHECK_CODE_SMELLS_BEFORE_PROJECT_COMMIT" value="false" />
+    <option name="CHECK_NEW_TODO" value="false" />
     <option name="myTodoPanelSettings">
       <TodoPanelSettings />
     </option>
+    <MESSAGE value="TypeScript applied for server.js&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="TypeScript applied for server.js&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -397,7 +499,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/bower.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="662" />
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="662">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/models/thing.js">
@@ -412,7 +516,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/models/project.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="84" selection-end="84" vertical-scroll-proportion="0.059496567" vertical-offset="0" max-vertical-offset="437" />
+        <state line="4" column="0" selection-start="84" selection-end="84" vertical-scroll-proportion="0.059496567" vertical-offset="0" max-vertical-offset="437">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server.js">
@@ -427,7 +533,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Gruntfile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="475" column="7" selection-start="14739" selection-end="14739" vertical-scroll-proportion="0.0" vertical-offset="5102" max-vertical-offset="7462" />
+        <state line="475" column="7" selection-start="14739" selection-end="14739" vertical-scroll-proportion="0.0" vertical-offset="5102" max-vertical-offset="7462">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
@@ -451,25 +559,103 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/typings/mongoose/mongoose.d.ts">
+    <entry file="file://$PROJECT_DIR$/lib/routes.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="55" column="35" selection-start="2187" selection-end="2187" vertical-scroll-proportion="0.0" vertical-offset="223" max-vertical-offset="2509">
+        <state line="33" column="0" selection-start="0" selection-end="1010" vertical-scroll-proportion="0.0" vertical-offset="39" max-vertical-offset="507">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="0" selection-start="1098" selection-end="1098" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="754">
+        <state line="0" column="47" selection-start="0" selection-end="47" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="754">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/controllers/api.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="0" selection-start="0" selection-end="406" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="286">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/controllers/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="0" selection-start="0" selection-end="679" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="429">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/controllers/api.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="53" selection-start="0" selection-end="53" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="299">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/controllers/session.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="0" selection-start="0" selection-end="652" vertical-scroll-proportion="0.0" vertical-offset="13" max-vertical-offset="442">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/controllers/index.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="403">
+          <folding>
+            <marker date="1395404022466" expanded="false" signature="84:135" placeholder="/** Send partial, or 404 if it doesn't exist ...*/" />
+            <marker date="1395404022466" expanded="true" signature="174:542" placeholder="{...}" />
+            <marker date="1395404022466" expanded="true" signature="319:538" placeholder="{...}" />
+            <marker date="1395404022466" expanded="true" signature="337:487" placeholder="{...}" />
+            <marker date="1395404022466" expanded="true" signature="493:532" placeholder="{...}" />
+            <marker date="1395404022466" expanded="true" signature="545:580" placeholder="/** Send our single page app ...*/" />
+            <marker date="1395404022466" expanded="true" signature="616:644" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/controllers/users.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="0" selection-start="0" selection-end="1631" vertical-scroll-proportion="0.0" vertical-offset="65" max-vertical-offset="1014">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/controllers/session.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="53" selection-start="0" selection-end="53" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="429">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/typings/mongoose/mongoose.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="175" column="29" selection-start="7492" selection-end="7492" vertical-scroll-proportion="0.0" vertical-offset="2006" max-vertical-offset="2522">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/controllers/users.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="240" selection-end="240" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="988">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/routes.js">
+    <entry file="file://$PROJECT_DIR$/lib/middleware.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="2" selection-start="911" selection-end="911" vertical-scroll-proportion="0.56225425" vertical-offset="0" max-vertical-offset="763">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="763">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/routes.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="0" selection-start="814" selection-end="814" vertical-scroll-proportion="0.49410224" vertical-offset="0" max-vertical-offset="763">
           <folding />
         </state>
       </provider>

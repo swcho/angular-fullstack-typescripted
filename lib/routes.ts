@@ -1,15 +1,17 @@
 /// <reference path="../typings/node/node.d.ts" />
-var api = require('./controllers/api');
-var index = require('./controllers');
-var users = require('./controllers/users');
-var session = require('./controllers/session');
+
+import api = require('./controllers/api');
+import index = require('./controllers');
+import users = require('./controllers/users');
+import session = require('./controllers/session');
 
 var middleware = require('./middleware');
 
 /**
-* Application routes
-*/
-module.exports = function (app) {
+ * Application routes
+ */
+module.exports = function(app) {
+
     // Server API Routes
     app.get('/api/awesomeThings', api.awesomeThings);
 
@@ -22,7 +24,7 @@ module.exports = function (app) {
     app.del('/api/session', session.logout);
 
     // All undefined api routes should return a 404
-    app.get('/api/*', function (req, res) {
+    app.get('/api/*', function(req, res) {
         res.send(404);
     });
 
@@ -30,4 +32,3 @@ module.exports = function (app) {
     app.get('/partials/*', index.partials);
     app.get('/*', middleware.setUserCookie, index.index);
 };
-//# sourceMappingURL=routes.js.map
