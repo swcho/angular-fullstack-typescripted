@@ -1,19 +1,21 @@
 /// <reference path="typings/node/node.d.ts" />
 /// <reference path="typings/express/express.d.ts" />
 /// <reference path="typings/mongoose/mongoose.d.ts" />
-var express = require('express');
-var path = require('path');
-var fs = require('fs');
-var mongoose = require('mongoose');
+
+import express = require('express');
+import path = require('path');
+import fs = require('fs');
+import mongoose = require('mongoose');
 
 /**
-* Main application file
-*/
+ * Main application file
+ */
+
 // Set default node environment to development
 process.env.NODE_ENV = process.env.NODE_ENV || 'development';
 
 // Application Config
-var config = require('./lib/config/config');
+var config: any = require('./lib/config/config');
 
 // Connect to database
 var db = mongoose.connect(config.mongo.uri, config.mongo.options);
@@ -32,6 +34,7 @@ require('./lib/config/dummydata');
 // Passport Configuration
 var passport = require('./lib/config/passport');
 
+
 var app = express();
 
 // Express settings
@@ -47,4 +50,3 @@ app.listen(config.port, function () {
 
 // Expose app
 exports = module.exports = app;
-//# sourceMappingURL=server.js.map
