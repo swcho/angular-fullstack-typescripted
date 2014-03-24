@@ -1,6 +1,6 @@
 /// <reference path="../typings/node/node.d.ts" />
 /// <reference path="../typings/express/express.d.ts" />
-/// <reference path="../typings/passportjs/express-passport.d.ts" />
+/// <reference path="../typings/passportjs/passport.d.ts" />
 
 import express = require('express');
 import passport = require('passport');

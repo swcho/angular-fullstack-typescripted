@@ -99,6 +99,9 @@ export = M;
 
             skip(x: number): Query<T>;
             limit(x: number): Query<T>;
+
+            remove(criteria, callback);
+            remove(callback);
         }
 
         export class Promise { }
