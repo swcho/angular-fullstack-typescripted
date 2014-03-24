@@ -42,7 +42,7 @@ export function show(req, res, next) {
 /**
  * Change password
  */
-exports.changePassword = function(req, res, next) {
+export function changePassword(req, res, next) {
     var userId = req.user._id;
     var oldPass = String(req.body.oldPassword);
     var newPass = String(req.body.newPassword);
@@ -64,6 +64,6 @@ exports.changePassword = function(req, res, next) {
 /**
  * Get current user
  */
-exports.me = function(req, res) {
+export function me(req, res) {
     res.json(req.user || null);
 };

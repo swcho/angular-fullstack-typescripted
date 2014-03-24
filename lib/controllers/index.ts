@@ -1,11 +1,13 @@
 /// <reference path="../../typings/node/node.d.ts" />
+/// <reference path="../../typings/express/express.d.ts" />
 
-var path = require('path');
+import express = require('express');
+import path = require('path');
 
 /**
  * Send partial, or 404 if it doesn't exist
  */
-export function partials(req, res) {
+export function partials(req: express.Request, res: express.Response) {
     var stripped = req.url.split('.')[0];
     var requestedView = path.join('./', stripped);
     res.render(requestedView, function(err, html) {
@@ -22,6 +24,6 @@ export function partials(req, res) {
 /**
  * Send our single page app
  */
-export function index(req, res) {
+export function index(req: express.Request, res: express.Response) {
     res.render('index');
 };

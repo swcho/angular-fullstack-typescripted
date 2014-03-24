@@ -1,13 +1,20 @@
-var express = require('express');
-var path = require('path');
+/// <reference path="../../typings/node/node.d.ts" />
+/// <reference path="../../typings/express/express.d.ts" />
+
+import express = require('express');
+import path = require('path');
 var config = require('./config');
 var passport = require('passport');
 var mongoStore = require('connect-mongo')(express);
 
-module.exports = function (app) {
-    app.configure('development', function () {
+/**
+ * Express configuration
+ */
+module.exports = function(app) {
+    app.configure('development', function(){
         app.use(require('connect-livereload')());
 
+        // Disable caching of scripts for easier testing
         app.use(function noCache(req, res, next) {
             if (req.url.indexOf('/scripts/') === 0) {
                 res.header('Cache-Control', 'no-cache, no-store, must-revalidate');
@@ -22,13 +29,13 @@ module.exports = function (app) {
         app.set('views', config.root + '/app/views');
     });
 
-    app.configure('production', function () {
+    app.configure('production', function(){
         app.use(express.favicon(path.join(config.root, 'public', 'favicon.ico')));
         app.use(express.static(path.join(config.root, 'public')));
         app.set('views', config.root + '/views');
     });
 
-    app.configure(function () {
+    app.configure(function(){
         app.engine('html', require('ejs').renderFile);
         app.set('view engine', 'html');
         app.use(express.logger('dev'));
@@ -37,6 +44,7 @@ module.exports = function (app) {
         app.use(express.methodOverride());
         app.use(express.cookieParser());
 
+        // Persist sessions with mongoStore
         app.use(express.session({
             secret: 'angular-fullstack secret',
             store: new mongoStore({
@@ -47,13 +55,16 @@ module.exports = function (app) {
             })
         }));
 
+        //use passport session
         app.use(passport.initialize());
         app.use(passport.session());
 
+        // Router (only error handlers should come after this)
         app.use(app.router);
     });
 
-    app.configure('development', function () {
+    // Error handler
+    app.configure('development', function(){
         app.use(express.errorHandler());
     });
 };

@@ -1,28 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3b67e727-2086-4062-86ee-691f83bf8df5" name="Default" comment="TypeScript applied for routes&#10;">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/typings/express/express.d.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/middleware.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/models/thing.ts" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/models/user.ts" />
+    <list default="true" id="3b67e727-2086-4062-86ee-691f83bf8df5" name="Default" comment="TypeScript bug fixes&#10;">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/scripts/app.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/scripts/services/auth.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/typings/passportjs/express-passport.d.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/config/express.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/scripts/controllers/login.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/scripts/controllers/main.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/scripts/directives/mongooseError.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/scripts/controllers/navbar.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/scripts/services/session.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/scripts/controllers/settings.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/scripts/controllers/signup.ts" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/scripts/services/user.ts" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Generated_files.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Generated_files.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/controllers/api.js" afterPath="$PROJECT_DIR$/lib/controllers/api.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/controllers/api.ts" afterPath="$PROJECT_DIR$/lib/controllers/api.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/app.js" afterPath="$PROJECT_DIR$/app/scripts/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/services/auth.js" afterPath="$PROJECT_DIR$/app/scripts/services/auth.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/config/express.js" afterPath="$PROJECT_DIR$/lib/config/express.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/controllers/index.js" afterPath="$PROJECT_DIR$/lib/controllers/index.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/controllers/index.ts" afterPath="$PROJECT_DIR$/lib/controllers/index.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/controllers/login.js" afterPath="$PROJECT_DIR$/app/scripts/controllers/login.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/controllers/main.js" afterPath="$PROJECT_DIR$/app/scripts/controllers/main.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/middleware.js" afterPath="$PROJECT_DIR$/lib/middleware.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typings/mongoose/mongoose.d.ts" afterPath="$PROJECT_DIR$/typings/mongoose/mongoose.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typings/node/node.d.ts" afterPath="$PROJECT_DIR$/typings/node/node.d.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/middleware.ts" afterPath="$PROJECT_DIR$/lib/middleware.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/directives/mongooseError.js" afterPath="$PROJECT_DIR$/app/scripts/directives/mongooseError.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/controllers/navbar.js" afterPath="$PROJECT_DIR$/app/scripts/controllers/navbar.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/models/project.js" afterPath="$PROJECT_DIR$/lib/models/project.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/routes.js" afterPath="$PROJECT_DIR$/lib/routes.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/controllers/session.js" afterPath="$PROJECT_DIR$/lib/controllers/session.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/controllers/session.ts" afterPath="$PROJECT_DIR$/lib/controllers/session.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/models/thing.js" afterPath="$PROJECT_DIR$/lib/models/thing.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/routes.ts" afterPath="$PROJECT_DIR$/lib/routes.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server.ts" afterPath="$PROJECT_DIR$/server.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/services/session.js" afterPath="$PROJECT_DIR$/app/scripts/services/session.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/controllers/settings.js" afterPath="$PROJECT_DIR$/app/scripts/controllers/settings.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/controllers/signup.js" afterPath="$PROJECT_DIR$/app/scripts/controllers/signup.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/typings/tsd.d.ts" afterPath="$PROJECT_DIR$/typings/tsd.d.ts" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/tsd.json" afterPath="$PROJECT_DIR$/tsd.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/services/user.js" afterPath="$PROJECT_DIR$/app/scripts/services/user.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/models/user.js" afterPath="$PROJECT_DIR$/lib/models/user.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/controllers/users.js" afterPath="$PROJECT_DIR$/lib/controllers/users.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/controllers/users.ts" afterPath="$PROJECT_DIR$/lib/controllers/users.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ossdb2.iws" />
@@ -46,101 +63,91 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="api.ts" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/controllers/api.ts">
+      <file leaf-file-name="settings.ts" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/scripts/controllers/settings.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="0" selection-start="251" selection-end="251" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="338">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="dummydata.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/config/dummydata.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="0" selection-start="1370" selection-end="1370" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="728">
+            <state line="2" column="0" selection-start="0" selection-end="66" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="377">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="package.json" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/package.json">
+      <file leaf-file-name="signup.ts" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/scripts/controllers/signup.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="33" selection-start="335" selection-end="335" vertical-scroll-proportion="-8.272727" vertical-offset="0" max-vertical-offset="962">
+            <state line="2" column="0" selection-start="0" selection-end="66" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="520">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="server.ts" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server.ts">
+      <file leaf-file-name="mongooseError.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/scripts/directives/mongooseError.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="20" selection-start="996" selection-end="996" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="754">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name=".bowerrc" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.bowerrc">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="0" selection-start="44" selection-end="44" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="117">
+            <state line="13" column="0" selection-start="449" selection-end="449" vertical-scroll-proportion="0.0" vertical-offset="13" max-vertical-offset="247">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="user.ts" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/models/user.ts">
+      <file leaf-file-name="mongooseError.ts" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/scripts/directives/mongooseError.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="17" selection-start="372" selection-end="372" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2340">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="node.d.ts" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/typings/node/node.d.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="1262" column="0" selection-start="55054" selection-end="55054" vertical-scroll-proportion="0.0" vertical-offset="15904" max-vertical-offset="16458">
+            <state line="2" column="0" selection-start="0" selection-end="66" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="325">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="users.ts" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lib/controllers/users.ts">
+      <file leaf-file-name="auth.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/scripts/services/auth.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="3" selection-start="344" selection-end="344" vertical-scroll-proportion="0.2937853" vertical-offset="0" max-vertical-offset="962">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state line="100" column="0" selection-start="2987" selection-end="2987" vertical-scroll-proportion="0.0" vertical-offset="1287" max-vertical-offset="1378">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="express.d.ts" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/typings/express/express.d.ts">
+      <file leaf-file-name="auth.ts" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/scripts/services/auth.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="390" max-vertical-offset="23673">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-              </folding>
+            <state line="2" column="0" selection-start="0" selection-end="66" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1534">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bower.json" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/bower.json">
+      <file leaf-file-name="session.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/scripts/services/session.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="338">
+            <state line="5" column="0" selection-start="217" selection-end="217" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="143">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="session.ts" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/scripts/services/session.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="2" column="0" selection-start="0" selection-end="66" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="169">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="user.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/scripts/services/user.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="18" column="0" selection-start="389" selection-end="389" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="312">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="user.ts" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/scripts/services/user.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="21" column="0" selection-start="495" selection-end="495" vertical-scroll-proportion="0.3181818" vertical-offset="0" max-vertical-offset="858">
               <folding />
             </state>
           </provider>
@@ -164,18 +171,32 @@
         <option value="$PROJECT_DIR$/typings/tsd.d.ts" />
         <option value="$PROJECT_DIR$/lib/models/project.ts" />
         <option value="$PROJECT_DIR$/Gruntfile.js" />
-        <option value="$PROJECT_DIR$/lib/middleware.ts" />
-        <option value="$PROJECT_DIR$/lib/routes.ts" />
         <option value="$PROJECT_DIR$/lib/models/thing.ts" />
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/server.ts" />
-        <option value="$PROJECT_DIR$/lib/controllers/index.ts" />
         <option value="$PROJECT_DIR$/lib/controllers/session.ts" />
         <option value="$PROJECT_DIR$/typings/node/node.d.ts" />
         <option value="$PROJECT_DIR$/typings/mongoose/mongoose.d.ts" />
         <option value="$PROJECT_DIR$/lib/models/user.ts" />
         <option value="$PROJECT_DIR$/lib/controllers/api.ts" />
+        <option value="$PROJECT_DIR$/server.ts" />
         <option value="$PROJECT_DIR$/lib/controllers/users.ts" />
+        <option value="$PROJECT_DIR$/lib/routes.ts" />
+        <option value="$PROJECT_DIR$/lib/controllers/index.ts" />
+        <option value="$PROJECT_DIR$/lib/config/express.ts" />
+        <option value="$PROJECT_DIR$/app/scripts/app.js" />
+        <option value="$PROJECT_DIR$/app/scripts/app.ts" />
+        <option value="$PROJECT_DIR$/app/scripts/controllers/main.js" />
+        <option value="$PROJECT_DIR$/app/scripts/controllers/main.ts" />
+        <option value="$PROJECT_DIR$/app/scripts/controllers/login.ts" />
+        <option value="$PROJECT_DIR$/lib/middleware.ts" />
+        <option value="$PROJECT_DIR$/typings/passportjs/express-passport.d.ts" />
+        <option value="$PROJECT_DIR$/app/scripts/controllers/navbar.ts" />
+        <option value="$PROJECT_DIR$/app/scripts/controllers/settings.ts" />
+        <option value="$PROJECT_DIR$/app/scripts/controllers/signup.ts" />
+        <option value="$PROJECT_DIR$/app/scripts/directives/mongooseError.ts" />
+        <option value="$PROJECT_DIR$/app/scripts/services/auth.ts" />
+        <option value="$PROJECT_DIR$/app/scripts/services/session.ts" />
+        <option value="$PROJECT_DIR$/app/scripts/services/user.ts" />
       </list>
     </option>
   </component>
@@ -297,7 +318,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="node" />
+              <option name="myItemId" value="passportjs" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -315,7 +336,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="mongoose" />
+              <option name="myItemId" value="jquery" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -379,7 +400,127 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="lib" />
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ossdb2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ossdb2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ossdb2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ossdb2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="partials" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ossdb2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ossdb2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ossdb2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ossdb2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="services" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ossdb2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ossdb2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scripts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="directives" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ossdb2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ossdb2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scripts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
@@ -405,6 +546,9 @@
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/typings/mongoose" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/typings/passportjs" />
     </key>
   </component>
   <component name="RunManager">
@@ -478,28 +622,32 @@
       <created>1395404415318</created>
       <updated>1395404415318</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="TypeScript bug fixes&#10;">
+      <created>1395632794141</created>
+      <updated>1395632794141</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="926" y="35" width="932" height="1023" extended-state="0" />
     <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3642384" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3654485" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.23893805" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28539824" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3245033" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32447398" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -521,7 +669,8 @@
     </option>
     <MESSAGE value="TypeScript applied for server.js&#10;" />
     <MESSAGE value="TypeScript applied for routes&#10;" />
-    <option name="LAST_COMMIT_MESSAGE" value="TypeScript applied for routes&#10;" />
+    <MESSAGE value="TypeScript bug fixes&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="TypeScript bug fixes&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -529,328 +678,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lib/models/project.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="84" selection-end="84" vertical-scroll-proportion="0.0" vertical-offset="52" max-vertical-offset="130">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/models/thing.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="364">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/models/user.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="87" column="17" selection-start="1794" selection-end="1794" vertical-scroll-proportion="0.0" vertical-offset="784" max-vertical-offset="2093">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tsd.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="342" selection-end="342" vertical-scroll-proportion="0.0" vertical-offset="195" max-vertical-offset="273">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/middleware.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/controllers/index.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="429">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/controllers/session.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="53" selection-start="0" selection-end="53" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="429">
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/controllers/users.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="0" selection-start="0" selection-end="1631" vertical-scroll-proportion="0.0" vertical-offset="416" max-vertical-offset="1014">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/controllers/users.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="240" selection-end="240" vertical-scroll-proportion="0.0" vertical-offset="117" max-vertical-offset="988">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/typings/mongoose/mongoose.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="175" column="29" selection-start="7492" selection-end="7492" vertical-scroll-proportion="0.0" vertical-offset="2275" max-vertical-offset="2522">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/routes.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="0" selection-start="989" selection-end="989" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="520">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/models/project.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="84" selection-end="84" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="130">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/models/thing.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="364">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/models/user.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="74" column="0" selection-start="1403" selection-end="1403" vertical-scroll-proportion="0.0" vertical-offset="784" max-vertical-offset="2093">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/middleware.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/controllers/index.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="403">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/controllers/session.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="53" selection-start="0" selection-end="53" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="429">
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/controllers/users.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="0" selection-start="0" selection-end="1631" vertical-scroll-proportion="0.0" vertical-offset="416" max-vertical-offset="1014">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/controllers/users.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="240" selection-end="240" vertical-scroll-proportion="0.0" vertical-offset="117" max-vertical-offset="988">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/typings/mongoose/mongoose.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="175" column="29" selection-start="7492" selection-end="7492" vertical-scroll-proportion="0.0" vertical-offset="2006" max-vertical-offset="2522">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/typings/tsd.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="39" selection-start="0" selection-end="39" vertical-scroll-proportion="0.029748283" vertical-offset="0" max-vertical-offset="437" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="30" column="0" selection-start="840" selection-end="840" vertical-scroll-proportion="0.6878307" vertical-offset="0" max-vertical-offset="567" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/karma-e2e.conf.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="780" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gruntfile.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="475" column="7" selection-start="14739" selection-end="14739" vertical-scroll-proportion="0.0" vertical-offset="5102" max-vertical-offset="7462" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/routes.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="0" selection-start="0" selection-end="1010" vertical-scroll-proportion="0.0" vertical-offset="39" max-vertical-offset="507" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/controllers/api.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="0" selection-start="0" selection-end="406" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="286" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/controllers/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="0" selection-start="0" selection-end="679" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="429" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/controllers/session.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="0" selection-start="0" selection-end="652" vertical-scroll-proportion="0.0" vertical-offset="13" max-vertical-offset="442" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/models/project.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="84" selection-end="84" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="104">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tsd.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="0" selection-start="342" selection-end="342" vertical-scroll-proportion="-8.863636" vertical-offset="0" max-vertical-offset="273">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/middleware.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="0" selection-start="537" selection-end="537" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="364">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/middleware.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="0" selection-start="462" selection-end="462" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="351">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/routes.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="0" selection-start="989" selection-end="989" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="520">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/models/thing.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="0" selection-start="0" selection-end="396" vertical-scroll-proportion="0.5813008" vertical-offset="0" max-vertical-offset="492">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/models/user.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="126" column="5" selection-start="0" selection-end="3303" vertical-scroll-proportion="0.397351" vertical-offset="1338" max-vertical-offset="2093">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/models/thing.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="17" selection-start="174" selection-end="174" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="468">
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/config/config.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="889">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/config/dummydata.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="0" selection-start="1370" selection-end="1370" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="728">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.bowerrc">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="0" selection-start="44" selection-end="44" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="117">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bower.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="489">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/controllers/users.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="57" column="0" selection-start="1369" selection-end="1369" vertical-scroll-proportion="0.8473581" vertical-offset="308" max-vertical-offset="819">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/server.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="20" selection-start="996" selection-end="996" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="754">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/controllers/session.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="21" selection-start="365" selection-end="365" vertical-scroll-proportion="0.44067797" vertical-offset="0" max-vertical-offset="531">
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/typings/express/express.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="23673">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/typings/node/node.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1262" column="0" selection-start="55054" selection-end="55054" vertical-scroll-proportion="0.0" vertical-offset="15904" max-vertical-offset="16458">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="33" selection-start="335" selection-end="335" vertical-scroll-proportion="-8.272727" vertical-offset="0" max-vertical-offset="962">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/typings/mongoose/mongoose.d.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state line="173" column="25" selection-start="7463" selection-end="7463" vertical-scroll-proportion="0.0" vertical-offset="1968" max-vertical-offset="2522">
@@ -860,35 +687,375 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/controllers/api.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="0" selection-start="251" selection-end="251" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="338">
+        <state line="20" column="0" selection-start="500" selection-end="500" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="338">
           <folding>
-            <element signature="n#!!doc" expanded="true" />
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/controllers/index.ts">
+    <entry file="file://$PROJECT_DIR$/lib/controllers/session.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="21" selection-start="599" selection-end="599" vertical-scroll-proportion="0.36236933" vertical-offset="0" max-vertical-offset="861">
+        <state line="22" column="11" selection-start="497" selection-end="500" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="429">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/robots.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="528">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/middleware.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="0" selection-start="312" selection-end="312" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="260">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/routes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="29" column="34" selection-start="953" selection-end="953" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="494">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/controllers/users.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="16" selection-start="361" selection-end="361" vertical-scroll-proportion="-0.39115044" vertical-offset="390" max-vertical-offset="962">
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/server.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="39" column="4" selection-start="1021" selection-end="1021" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="741">
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/config/express.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="0" selection-start="1935" selection-end="1936" vertical-scroll-proportion="0.0" vertical-offset="26" max-vertical-offset="845">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/models/user.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="17" selection-start="372" selection-end="372" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2340">
+        <state line="173" column="0" selection-start="3986" selection-end="3986" vertical-scroll-proportion="0.0" vertical-offset="1812" max-vertical-offset="2340">
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/controllers/index.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="0" selection-start="0" selection-end="152" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="455">
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/config/env/development.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="565">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/config/env/production.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="565">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/config/env/test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="565">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/config/env/all.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="565">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/config/config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="55" selection-start="195" selection-end="195" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="195">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/ejs/test/fixtures/backslash.ejs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="858">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/config/express.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="61" column="60" selection-start="2138" selection-end="2138" vertical-scroll-proportion="0.0" vertical-offset="78" max-vertical-offset="975">
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/styles/main.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="26" column="24" selection-start="501" selection-end="501" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1105">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/partials/settings.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="6" selection-start="1202" selection-end="1202" vertical-scroll-proportion="-18.272728" vertical-offset="66" max-vertical-offset="559">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/partials/signup.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="923">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="0" selection-start="1386" selection-end="1387" vertical-scroll-proportion="0.0" vertical-offset="13" max-vertical-offset="663">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/typings/angularjs/angular.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="24" column="0" selection-start="696" selection-end="696" vertical-scroll-proportion="0.0" vertical-offset="39" max-vertical-offset="11219">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/routes.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="50" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="494">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="0" selection-start="344" selection-end="344" vertical-scroll-proportion="0.0" vertical-offset="91" max-vertical-offset="182">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/app.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="1" selection-end="63" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="832">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="72" column="0" selection-start="3301" selection-end="3301" vertical-scroll-proportion="-31.272728" vertical-offset="248" max-vertical-offset="1014">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/partials/main.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="0" selection-start="560" selection-end="560" vertical-scroll-proportion="-12.409091" vertical-offset="0" max-vertical-offset="351">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/models/thing.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="17" selection-start="394" selection-end="394" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="455">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/login.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="0" selection-start="726" selection-end="726" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="377">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/login.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="7" selection-start="833" selection-end="833" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="403">
+          <folding>
+            <marker date="1395636990816" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1395636990816" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1395636990816" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1395636990816" expanded="true" signature="-1:-1" placeholder="{...}" />
+            <marker date="1395636990816" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/typings/express/express.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="4" selection-start="449" selection-end="479" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="23634">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/typings/jquery/jquery.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="50284">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/controllers/users.ts">
+    <entry file="file://$PROJECT_DIR$/typings/passportjs/express-passport.d.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="3" selection-start="344" selection-end="344" vertical-scroll-proportion="0.2937853" vertical-offset="0" max-vertical-offset="962">
+        <state line="4" column="8" selection-start="126" selection-end="126" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="169">
+          <folding>
+            <marker date="1395644361476" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/middleware.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="0" selection-start="776" selection-end="776" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/models/project.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="0" selection-start="84" selection-end="84" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="104">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/navbar.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="22" column="0" selection-start="595" selection-end="595" vertical-scroll-proportion="0.0" vertical-offset="273" max-vertical-offset="364">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/main.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="1" column="64" selection-start="1" selection-end="65" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="208">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/settings.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="0" selection-start="0" selection-end="585" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="286">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/navbar.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="0" selection-end="66" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="390">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/signup.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="30" column="0" selection-start="0" selection-end="1062" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="468">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/settings.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="0" selection-end="66" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="377">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/directives/mongooseError.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="0" selection-start="449" selection-end="449" vertical-scroll-proportion="0.0" vertical-offset="13" max-vertical-offset="247">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/signup.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="0" selection-end="66" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="520">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/services/auth.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="100" column="0" selection-start="2987" selection-end="2987" vertical-scroll-proportion="0.0" vertical-offset="1287" max-vertical-offset="1378">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/directives/mongooseError.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="0" selection-end="66" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="325">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/services/session.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="0" selection-start="217" selection-end="217" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="143">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/services/auth.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="0" selection-end="66" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1534">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/services/user.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="0" selection-start="389" selection-end="389" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="312">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/services/session.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="0" selection-start="0" selection-end="66" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="169">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/services/user.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="21" column="0" selection-start="495" selection-end="495" vertical-scroll-proportion="0.3181818" vertical-offset="0" max-vertical-offset="858">
+          <folding />
         </state>
       </provider>
     </entry>

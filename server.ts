@@ -34,7 +34,6 @@ require('./lib/config/dummydata');
 // Passport Configuration
 var passport = require('./lib/config/passport');
 
-
 var app = express();
 
 // Express settings

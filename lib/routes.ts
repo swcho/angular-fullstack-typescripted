@@ -1,17 +1,15 @@
 /// <reference path="../typings/node/node.d.ts" />
 
 import api = require('./controllers/api');
-import index = require('./controllers');
+import index = require('./controllers/index');
 import users = require('./controllers/users');
 import session = require('./controllers/session');
-
-var middleware = require('./middleware');
+import middleware = require('./middleware');
 
 /**
  * Application routes
  */
 module.exports = function(app) {
-
     // Server API Routes
     app.get('/api/awesomeThings', api.awesomeThings);
 
