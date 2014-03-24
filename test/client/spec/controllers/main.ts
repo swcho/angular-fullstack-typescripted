@@ -1,17 +1,23 @@
+
 /// <reference path="../../../../typings/jasmine/jasmine.d.ts" />
 /// <reference path="../../../../typings/angularjs/angular-mocks.d.ts" />
+
 describe('Controller: MainCtrl', function () {
+
     // load the controller's module
-    beforeEach(function () {
+    beforeEach(() => {
         module('meanTrialApp');
     });
 
-    var MainCtrl, scope, $httpBackend;
+    var MainCtrl,
+        scope,
+        $httpBackend;
 
     // Initialize the controller and a mock scope
     beforeEach(inject(function (_$httpBackend_, $controller, $rootScope) {
         $httpBackend = _$httpBackend_;
-        $httpBackend.expectGET('/api/awesomeThings').respond(['HTML5 Boilerplate', 'AngularJS', 'Karma', 'Express']);
+        $httpBackend.expectGET('/api/awesomeThings')
+            .respond(['HTML5 Boilerplate', 'AngularJS', 'Karma', 'Express']);
         scope = $rootScope.$new();
         MainCtrl = $controller('MainCtrl', {
             $scope: scope
@@ -24,4 +30,4 @@ describe('Controller: MainCtrl', function () {
         expect(scope.awesomeThings.length).toBe(4);
     });
 });
-//# sourceMappingURL=main.js.map
+

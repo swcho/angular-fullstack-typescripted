@@ -12,10 +12,49 @@
       "commit": "4085f85dc4d9333691d9484f7dda8ee78ecd374e"
     },
     "angularjs/angular.d.ts": {
-      "commit": "4085f85dc4d9333691d9484f7dda8ee78ecd374e"
+      "commit": "efd1ae87473fedc9d6df93033e65d47614689caa"
     },
     "jquery/jquery.d.ts": {
       "commit": "4085f85dc4d9333691d9484f7dda8ee78ecd374e"
+    },
+    "jasmine/jasmine.d.ts": {
+      "commit": "efd1ae87473fedc9d6df93033e65d47614689caa"
+    },
+    "angular-translate/angular-translate.d.ts": {
+      "commit": "efd1ae87473fedc9d6df93033e65d47614689caa"
+    },
+    "angular-ui-bootstrap/angular-ui-bootstrap.d.ts": {
+      "commit": "efd1ae87473fedc9d6df93033e65d47614689caa"
+    },
+    "angular-ui/angular-ui-router.d.ts": {
+      "commit": "efd1ae87473fedc9d6df93033e65d47614689caa"
+    },
+    "angularfire/angularfire.d.ts": {
+      "commit": "efd1ae87473fedc9d6df93033e65d47614689caa"
+    },
+    "angular-protractor/angular-protractor.d.ts": {
+      "commit": "efd1ae87473fedc9d6df93033e65d47614689caa"
+    },
+    "angularjs/angular-animate.d.ts": {
+      "commit": "efd1ae87473fedc9d6df93033e65d47614689caa"
+    },
+    "angularjs/angular-cookies.d.ts": {
+      "commit": "efd1ae87473fedc9d6df93033e65d47614689caa"
+    },
+    "angularjs/angular-mocks.d.ts": {
+      "commit": "efd1ae87473fedc9d6df93033e65d47614689caa"
+    },
+    "angularjs/angular-sanitize.d.ts": {
+      "commit": "efd1ae87473fedc9d6df93033e65d47614689caa"
+    },
+    "angularjs/angular-scenario.d.ts": {
+      "commit": "efd1ae87473fedc9d6df93033e65d47614689caa"
+    },
+    "angularjs/angular-resource.d.ts": {
+      "commit": "efd1ae87473fedc9d6df93033e65d47614689caa"
+    },
+    "angularjs/angular-route.d.ts": {
+      "commit": "efd1ae87473fedc9d6df93033e65d47614689caa"
     }
   }
 }
