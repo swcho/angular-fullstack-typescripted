@@ -1,12 +1,13 @@
 /// <reference path="../../typings/node/node.d.ts" />
+/// <reference path="../../typings/mongoose/mongoose.d.ts" />
 
-var mongoose = require('mongoose'),
-    passport = require('passport');
+import mongoose = require('mongoose');
+var passport = require('passport');
 
 /**
  * Logout
  */
-exports.logout = function (req, res) {
+export function logout(req, res) {
     req.logout();
     res.send(200);
 };
@@ -14,7 +15,7 @@ exports.logout = function (req, res) {
 /**
  * Login
  */
-exports.login = function (req, res, next) {
+export function login(req, res, next) {
     passport.authenticate('local', function(err, user, info) {
         var error = err || info;
         if (error) return res.json(401, error);

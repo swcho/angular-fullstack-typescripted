@@ -5,7 +5,7 @@ var path = require('path');
 /**
  * Send partial, or 404 if it doesn't exist
  */
-exports.partials = function(req, res) {
+export function partials(req, res) {
     var stripped = req.url.split('.')[0];
     var requestedView = path.join('./', stripped);
     res.render(requestedView, function(err, html) {
@@ -22,6 +22,6 @@ exports.partials = function(req, res) {
 /**
  * Send our single page app
  */
-exports.index = function(req, res) {
+export function index(req, res) {
     res.render('index');
 };

@@ -1,22 +1,20 @@
 /// <reference path="../../typings/node/node.d.ts" />
 /// <reference path="../../typings/mongoose/mongoose.d.ts" />
+/// <reference path="../models/user" />
 
 import mongoose = require('mongoose');
+import user = require('../models/user');
 var passport = require('passport');
 
-interface TUser extends mongoose.Document {
-
-}
-
-var User = mongoose.model<TUser>('User');
+var User = mongoose.model<user.TUser>('User');
 
 /**
  * Create user
  */
-exports.create = function (req, res, next) {
-    var newUser = new User(req.body);
+export function create(req, res, next) {
+    var newUser: user.TUser = <user.TUser>(new User(req.body));
     newUser.provider = 'local';
-    newUser.save(function(err) {
+    newUser.save<user.TUser>(function(err) {
         if (err) return res.json(400, err);
 
         req.logIn(newUser, function(err) {
@@ -30,7 +28,7 @@ exports.create = function (req, res, next) {
 /**
  *  Get profile of specified user
  */
-exports.show = function (req, res, next) {
+export function show(req, res, next) {
     var userId = req.params.id;
 
     User.findById(userId, function (err, user) {

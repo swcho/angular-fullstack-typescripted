@@ -1,12 +1,15 @@
 /// <reference path="../../typings/node/node.d.ts" />
+/// <reference path="../../typings/mongoose/mongoose.d.ts" />
 
 import mongoose = require('mongoose');
-import Thing = mongoose.model('Thing');
+import thing = require('../models/thing');
+
+var Thing = mongoose.model<thing.TThing>('Thing');
 
 /**
  * Get awesome things
  */
-exports.awesomeThings = function(req, res) {
+export function awesomeThings(req, res) {
     return Thing.find(function (err, things) {
         if (!err) {
             return res.json(things);

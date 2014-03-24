@@ -43,8 +43,8 @@ export = M;
         export class Connection implements NodeEventEmitter {
             constructor(base: Mongoose);
 
-            addListener(event: string, listener: Function);
-            on(event: string, listener: Function);
+            addListener(event: string, listener: Function): NodeEventEmitter;
+            on(event: string, listener: Function): NodeEventEmitter;
             once(event: string, listener: Function): NodeEventEmitter;
             removeListener(event: string, listener: Function): NodeEventEmitter;
             removeAllListeners(event?: string): NodeEventEmitter;
