@@ -1,4 +1,3 @@
-/// <reference path="../../../typings/angularjs/angular.d.ts" />
 angular.module('meanTrialApp').controller('LoginCtrl', function ($scope, Auth, $location) {
     $scope.user = {};
     $scope.errors = {};
@@ -11,7 +10,6 @@ angular.module('meanTrialApp').controller('LoginCtrl', function ($scope, Auth, $
                 email: $scope.user.email,
                 password: $scope.user.password
             }).then(function () {
-                // Logged in, redirect to home
                 $location.path('/');
             }).catch(function (err) {
                 err = err.data;
@@ -20,4 +18,3 @@ angular.module('meanTrialApp').controller('LoginCtrl', function ($scope, Auth, $
         }
     };
 });
-//# sourceMappingURL=login.js.map

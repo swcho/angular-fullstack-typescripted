@@ -1,4 +1,3 @@
-/// <reference path="../../../typings/angularjs/angular.d.ts" />
 angular.module('meanTrialApp').directive('mongooseError', function () {
     return {
         restrict: 'A',
@@ -10,4 +9,3 @@ angular.module('meanTrialApp').directive('mongooseError', function () {
         }
     };
 });
-//# sourceMappingURL=mongooseError.js.map

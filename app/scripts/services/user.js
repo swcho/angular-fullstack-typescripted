@@ -1,4 +1,3 @@
-/// <reference path="../../../typings/angularjs/angular.d.ts" />
 angular.module('meanTrialApp').factory('User', function ($resource) {
     return $resource('/api/users/:id', {
         id: '@id'
@@ -15,4 +14,3 @@ angular.module('meanTrialApp').factory('User', function ($resource) {
         }
     });
 });
-//# sourceMappingURL=user.js.map

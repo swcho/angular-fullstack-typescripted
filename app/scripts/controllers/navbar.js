@@ -1,4 +1,3 @@
-/// <reference path="../../../typings/angularjs/angular.d.ts" />
 angular.module('meanTrialApp').controller('NavbarCtrl', function ($scope, $location, Auth) {
     $scope.menu = [
         {
@@ -19,4 +18,3 @@ angular.module('meanTrialApp').controller('NavbarCtrl', function ($scope, $locat
         return route === $location.path();
     };
 });
-//# sourceMappingURL=navbar.js.map

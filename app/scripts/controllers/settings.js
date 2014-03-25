@@ -1,4 +1,3 @@
-/// <reference path="../../../typings/angularjs/angular.d.ts" />
 angular.module('meanTrialApp').controller('SettingsCtrl', function ($scope, User, Auth) {
     $scope.errors = {};
 
@@ -15,4 +14,3 @@ angular.module('meanTrialApp').controller('SettingsCtrl', function ($scope, User
         }
     };
 });
-//# sourceMappingURL=settings.js.map

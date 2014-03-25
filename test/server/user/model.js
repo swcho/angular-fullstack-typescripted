@@ -1,7 +1,3 @@
-/// <reference path="../../../typings/node/node.d.ts" />
-/// <reference path="../../../typings/mocha/mocha.d.ts" />
-/// <reference path="../../../typings/should/should.d.ts" />
-/// <reference path="../../../typings/mongoose/mongoose.d.ts" />
 var should = require('should');
 var mongoose = require('mongoose');
 var user = require('../../../lib/models/user');
@@ -18,7 +14,6 @@ describe('User Model', function () {
             password: 'password'
         });
 
-        // Clear users before testing
         User.remove({}).exec();
         done();
     });
@@ -60,4 +55,3 @@ describe('User Model', function () {
         sUser.authenticate('blah').should.not.be.true;
     });
 });
-//# sourceMappingURL=model.js.map
