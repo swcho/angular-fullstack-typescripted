@@ -56,13 +56,13 @@ module.exports = function (grunt) {
                 fast: true,
             },
             server: {
-                src: ['*.ts', 'lib/**/*.ts'],
+                src: ['*.ts', 'lib/**/*.ts', 'test/server/**/*.ts'],
                 options: {
                     module: 'commonjs'
                 }
             },
             client: {
-                src: ['app/**/*.ts'],
+                src: ['app/**/*.ts', 'test/client/**/*.ts'],
                 options: {
                     module: 'amd'
                 }
@@ -77,11 +77,11 @@ module.exports = function (grunt) {
                 }
             },
             ts_be: {
-                files: ['*.ts', 'lib/**/*.ts'],
+                files: ['*.ts', 'lib/**/*.ts', 'test/server/**/*.ts'],
                 tasks: ['ts:server']
             },
             ts_fe: {
-                files: ['app/**/*.ts'],
+                files: ['app/**/*.ts', 'test/client/**/*.ts'],
                 tasks: ['ts:client']
             },
             mochaTest: {

@@ -8,7 +8,6 @@ import mongoose = require('mongoose');
 import user = require('../../../lib/models/user');
 
 var User = mongoose.model<user.TUser>('User');
-
 var sUser;
 
 describe('User Model', function() {
@@ -40,7 +39,7 @@ describe('User Model', function() {
     it('should fail when saving a duplicate user', function(done) {
         sUser.save();
         var userDup = new User(user);
-        userDup.save(function(err) {
+        userDup.save<user.TUser>(function(err) {
             should.exist(err);
             done();
         });

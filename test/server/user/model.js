@@ -7,7 +7,6 @@ var mongoose = require('mongoose');
 var user = require('../../../lib/models/user');
 
 var User = mongoose.model('User');
-
 var sUser;
 
 describe('User Model', function () {

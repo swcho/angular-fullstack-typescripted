@@ -2,59 +2,41 @@
   <library name="Generated files" type="javaScript">
     <properties>
       <sourceFilesUrls>
-        <item url="file://$PROJECT_DIR$/test/server/thing/api.js" />
-        <item url="file://$PROJECT_DIR$/lib/middleware.js" />
+        <item url="file://$PROJECT_DIR$/test/client/spec/controllers/main.js" />
         <item url="file://$PROJECT_DIR$/lib/routes.js" />
+        <item url="file://$PROJECT_DIR$/lib/middleware.js" />
+        <item url="file://$PROJECT_DIR$/lib/config/dummydata.js" />
+        <item url="file://$PROJECT_DIR$/test/server/thing/api.js" />
+        <item url="file://$PROJECT_DIR$/test/server/user/model.js" />
         <item url="file://$PROJECT_DIR$/lib/config/express.js" />
         <item url="file://$PROJECT_DIR$/lib/config/passport.js" />
-        <item url="file://$PROJECT_DIR$/lib/config/dummydata.js" />
         <item url="file://$PROJECT_DIR$/lib/models/thing.js" />
-        <item url="file://$PROJECT_DIR$/app/scripts/app.js" />
         <item url="file://$PROJECT_DIR$/lib/models/user.js" />
+        <item url="file://$PROJECT_DIR$/server.js" />
+        <item url="file://$PROJECT_DIR$/dist/lib/controllers/session.js" />
         <item url="file://$PROJECT_DIR$/lib/controllers/index.js" />
         <item url="file://$PROJECT_DIR$/lib/controllers/users.js" />
-        <item url="file://$PROJECT_DIR$/app/scripts/services/user.js" />
         <item url="file://$PROJECT_DIR$/lib/controllers/session.js" />
-        <item url="file://$PROJECT_DIR$/app/scripts/services/session.js" />
         <item url="file://$PROJECT_DIR$/lib/controllers/api.js" />
-        <item url="file://$PROJECT_DIR$/server.js" />
-        <item url="file://$PROJECT_DIR$/app/scripts/directives/mongooseError.js" />
-        <item url="file://$PROJECT_DIR$/app/scripts/services/auth.js" />
-        <item url="file://$PROJECT_DIR$/app/scripts/controllers/navbar.js" />
-        <item url="file://$PROJECT_DIR$/app/scripts/controllers/signup.js" />
-        <item url="file://$PROJECT_DIR$/app/scripts/controllers/settings.js" />
-        <item url="file://$PROJECT_DIR$/app/scripts/controllers/login.js" />
-        <item url="file://$PROJECT_DIR$/test/client/spec/controllers/main.js" />
-        <item url="file://$PROJECT_DIR$/app/scripts/controllers/main.js" />
-        <item url="file://$PROJECT_DIR$/test/server/user/model.js" />
       </sourceFilesUrls>
     </properties>
     <CLASSES>
-      <root url="file://$PROJECT_DIR$/lib/middleware.js" />
+      <root url="file://$PROJECT_DIR$/test/client/spec/controllers/main.js" />
       <root url="file://$PROJECT_DIR$/lib/routes.js" />
+      <root url="file://$PROJECT_DIR$/lib/middleware.js" />
+      <root url="file://$PROJECT_DIR$/test/server/thing/api.js" />
+      <root url="file://$PROJECT_DIR$/lib/config/dummydata.js" />
+      <root url="file://$PROJECT_DIR$/test/server/user/model.js" />
       <root url="file://$PROJECT_DIR$/lib/config/express.js" />
       <root url="file://$PROJECT_DIR$/lib/config/passport.js" />
-      <root url="file://$PROJECT_DIR$/lib/config/dummydata.js" />
       <root url="file://$PROJECT_DIR$/lib/models/thing.js" />
       <root url="file://$PROJECT_DIR$/lib/models/user.js" />
       <root url="file://$PROJECT_DIR$/lib/controllers/index.js" />
+      <root url="file://$PROJECT_DIR$/dist/lib/controllers/session.js" />
+      <root url="file://$PROJECT_DIR$/server.js" />
       <root url="file://$PROJECT_DIR$/lib/controllers/users.js" />
       <root url="file://$PROJECT_DIR$/lib/controllers/session.js" />
       <root url="file://$PROJECT_DIR$/lib/controllers/api.js" />
-      <root url="file://$PROJECT_DIR$/server.js" />
-      <root url="file://$PROJECT_DIR$/test/client/spec/controllers/main.js" />
-      <root url="file://$PROJECT_DIR$/test/server/user/model.js" />
-      <root url="file://$PROJECT_DIR$/test/server/thing/api.js" />
-      <root url="file://$PROJECT_DIR$/app/scripts/app.js" />
-      <root url="file://$PROJECT_DIR$/app/scripts/services/user.js" />
-      <root url="file://$PROJECT_DIR$/app/scripts/services/session.js" />
-      <root url="file://$PROJECT_DIR$/app/scripts/directives/mongooseError.js" />
-      <root url="file://$PROJECT_DIR$/app/scripts/services/auth.js" />
-      <root url="file://$PROJECT_DIR$/app/scripts/controllers/navbar.js" />
-      <root url="file://$PROJECT_DIR$/app/scripts/controllers/signup.js" />
-      <root url="file://$PROJECT_DIR$/app/scripts/controllers/settings.js" />
-      <root url="file://$PROJECT_DIR$/app/scripts/controllers/login.js" />
-      <root url="file://$PROJECT_DIR$/app/scripts/controllers/main.js" />
     </CLASSES>
     <SOURCES />
   </library>
